@@ -15,6 +15,7 @@ builder.Services.AddDbContext<HarryPotterApiDbContext>(options =>
 
 // Add services to the container.
 builder.Services.AddScoped<ICharacterService, CharacterService>();
+builder.Services.AddScoped<IHouseService, HouseService>();
 builder.Services.AddScoped<DataSeedingService>();
 
 builder.Services.AddControllers();

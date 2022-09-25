@@ -2,8 +2,11 @@ using Api.Data.Connections;
 using Api.Services;
 using Microsoft.EntityFrameworkCore;
 
-var config = new ConfigurationBuilder().AddUserSecrets<Program>().Build();
-var connectionString = config.GetConnectionString("HarryPotterDb");
+var config = new ConfigurationBuilder()
+    .AddEnvironmentVariables()
+    .AddUserSecrets<Program>()
+    .Build();
+var connectionString = config.GetValue<string>("HarryPotterDbConnectionString");
 
 var builder = WebApplication.CreateBuilder();
 

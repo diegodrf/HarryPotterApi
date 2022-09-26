@@ -25,3 +25,5 @@ jobs:
         run: dotnet build --configuration Release --no-restore
 #      - name: Test
 #        run: dotnet test --no-restore --verbosity normal
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2

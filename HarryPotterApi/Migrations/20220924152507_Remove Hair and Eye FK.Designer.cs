@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Api.Migrations
 {
     [DbContext(typeof(HarryPotterApiDbContext))]
-    [Migration("20220924153922_Add reverse relationship on FKs")]
-    partial class AddreverserelationshiponFKs
+    [Migration("20220924152507_Remove Hair and Eye FK")]
+    partial class RemoveHairandEyeFK
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -24,7 +24,7 @@ namespace Api.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("Api.Models.Data.Character", b =>
+            modelBuilder.Entity("HarryPotterApi.Models.Data.Character", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -95,7 +95,7 @@ namespace Api.Migrations
                     b.ToTable("Characters");
                 });
 
-            modelBuilder.Entity("Api.Models.Data.Gender", b =>
+            modelBuilder.Entity("HarryPotterApi.Models.Data.Gender", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -112,7 +112,7 @@ namespace Api.Migrations
                     b.ToTable("Genders");
                 });
 
-            modelBuilder.Entity("Api.Models.Data.House", b =>
+            modelBuilder.Entity("HarryPotterApi.Models.Data.House", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -129,7 +129,7 @@ namespace Api.Migrations
                     b.ToTable("Houses");
                 });
 
-            modelBuilder.Entity("Api.Models.Data.Species", b =>
+            modelBuilder.Entity("HarryPotterApi.Models.Data.Species", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -146,7 +146,7 @@ namespace Api.Migrations
                     b.ToTable("Species");
                 });
 
-            modelBuilder.Entity("Api.Models.Data.Wand", b =>
+            modelBuilder.Entity("HarryPotterApi.Models.Data.Wand", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -168,22 +168,22 @@ namespace Api.Migrations
                     b.ToTable("Wands");
                 });
 
-            modelBuilder.Entity("Api.Models.Data.Character", b =>
+            modelBuilder.Entity("HarryPotterApi.Models.Data.Character", b =>
                 {
-                    b.HasOne("Api.Models.Data.Gender", "Gender")
-                        .WithMany("Characters")
+                    b.HasOne("HarryPotterApi.Models.Data.Gender", "Gender")
+                        .WithMany()
                         .HasForeignKey("GenderId");
 
-                    b.HasOne("Api.Models.Data.House", "House")
-                        .WithMany("Characters")
+                    b.HasOne("HarryPotterApi.Models.Data.House", "House")
+                        .WithMany()
                         .HasForeignKey("HouseId");
 
-                    b.HasOne("Api.Models.Data.Species", "Species")
-                        .WithMany("Characters")
+                    b.HasOne("HarryPotterApi.Models.Data.Species", "Species")
+                        .WithMany()
                         .HasForeignKey("SpeciesId");
 
-                    b.HasOne("Api.Models.Data.Wand", "Wand")
-                        .WithMany("Characters")
+                    b.HasOne("HarryPotterApi.Models.Data.Wand", "Wand")
+                        .WithMany()
                         .HasForeignKey("WandId");
 
                     b.Navigation("Gender");
@@ -193,26 +193,6 @@ namespace Api.Migrations
                     b.Navigation("Species");
 
                     b.Navigation("Wand");
-                });
-
-            modelBuilder.Entity("Api.Models.Data.Gender", b =>
-                {
-                    b.Navigation("Characters");
-                });
-
-            modelBuilder.Entity("Api.Models.Data.House", b =>
-                {
-                    b.Navigation("Characters");
-                });
-
-            modelBuilder.Entity("Api.Models.Data.Species", b =>
-                {
-                    b.Navigation("Characters");
-                });
-
-            modelBuilder.Entity("Api.Models.Data.Wand", b =>
-                {
-                    b.Navigation("Characters");
                 });
 #pragma warning restore 612, 618
         }

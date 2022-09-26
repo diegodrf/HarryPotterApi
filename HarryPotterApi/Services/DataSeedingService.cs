@@ -9,8 +9,6 @@ namespace Api.Services;
 public class DataSeedingService
 {
     private readonly HarryPotterApiDbContext _context;
-    // private readonly HashSet<Hair> _hairs;
-    // private readonly HashSet<Eye> _eyes;
     private readonly HashSet<Species> _species;
     private readonly HashSet<Gender> _genders;
     private readonly HashSet<House> _houses;
@@ -19,8 +17,6 @@ public class DataSeedingService
     public DataSeedingService(HarryPotterApiDbContext context)
     {
         _context = context;
-        // _hairs = new();
-        // _eyes = new();
         _species = new();
         _genders = new();
         _houses = new();
@@ -32,16 +28,10 @@ public class DataSeedingService
         if (!isEmpty) return;
         
         // TODO Implements external data source
-        var path = @"C:\Users\Diego\source\repos\HarryPotterApi\Api\Data\characters.json";
+        var path = @"C:\Users\Diego\source\repos\HarryPotterApi\HarryPotterApi\Data\characters.json";
 
         await using var file = File.OpenRead(path);
         var charactersFromJson = await JsonSerializer.DeserializeAsync<List<CharacterFromJson>>(file);
-
-        // _hairs.UnionWith(GetHairs(charactersFromJson!));
-        // await _context.Hairs.AddRangeAsync(_hairs);
-        //
-        // _eyes.UnionWith(GetEyes(charactersFromJson!));
-        // await _context.Eyes.AddRangeAsync(_eyes);
 
         _species.UnionWith(GetSpecies(charactersFromJson!));
         await _context.Species.AddRangeAsync(_species);
@@ -56,22 +46,6 @@ public class DataSeedingService
         await _context.Characters.AddRangeAsync(_characters);
 
         await _context.SaveChangesAsync();
-    }
-
-    private IEnumerable<Hair> GetHairs(IEnumerable<CharacterFromJson> dataSource)
-    {   
-        return dataSource
-            .Where(e => e.HairColor is not null)
-            .Select(e => new Hair { Name = e.HairColor! })
-            .ToHashSet();
-    }
-
-    private IEnumerable<Eye> GetEyes(IEnumerable<CharacterFromJson> dataSource)
-    {
-        return dataSource
-            .Where(e => e.EyeColor is not null)
-            .Select(e => new Eye { Name = e.EyeColor! })
-            .ToHashSet();
     }
 
     private IEnumerable<Species> GetSpecies(IEnumerable<CharacterFromJson> dataSource)

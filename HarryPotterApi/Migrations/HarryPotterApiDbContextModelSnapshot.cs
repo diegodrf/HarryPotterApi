@@ -3,7 +3,6 @@ using System;
 using Api.Data.Connections;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -12,10 +11,9 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Api.Migrations
 {
     [DbContext(typeof(HarryPotterApiDbContext))]
-    [Migration("20220924091424_Initial")]
-    partial class Initial
+    partial class HarryPotterApiDbContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -24,7 +22,7 @@ namespace Api.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("Api.Models.Data.Character", b =>
+            modelBuilder.Entity("HarryPotterApi.Models.Data.Character", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -42,14 +40,14 @@ namespace Api.Migrations
                     b.Property<DateTime?>("BirthDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<int?>("EyeId")
-                        .HasColumnType("integer");
+                    b.Property<string>("Eye")
+                        .HasColumnType("text");
 
                     b.Property<int?>("GenderId")
                         .HasColumnType("integer");
 
-                    b.Property<int?>("HairId")
-                        .HasColumnType("integer");
+                    b.Property<string>("Hair")
+                        .HasColumnType("text");
 
                     b.Property<int?>("HouseId")
                         .HasColumnType("integer");
@@ -84,11 +82,7 @@ namespace Api.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EyeId");
-
                     b.HasIndex("GenderId");
-
-                    b.HasIndex("HairId");
 
                     b.HasIndex("HouseId");
 
@@ -99,24 +93,7 @@ namespace Api.Migrations
                     b.ToTable("Characters");
                 });
 
-            modelBuilder.Entity("Api.Models.Data.Eye", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Eyes");
-                });
-
-            modelBuilder.Entity("Api.Models.Data.Gender", b =>
+            modelBuilder.Entity("HarryPotterApi.Models.Data.Gender", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -133,24 +110,7 @@ namespace Api.Migrations
                     b.ToTable("Genders");
                 });
 
-            modelBuilder.Entity("Api.Models.Data.Hair", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Hairs");
-                });
-
-            modelBuilder.Entity("Api.Models.Data.House", b =>
+            modelBuilder.Entity("HarryPotterApi.Models.Data.House", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -167,7 +127,7 @@ namespace Api.Migrations
                     b.ToTable("Houses");
                 });
 
-            modelBuilder.Entity("Api.Models.Data.Species", b =>
+            modelBuilder.Entity("HarryPotterApi.Models.Data.Species", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -184,7 +144,7 @@ namespace Api.Migrations
                     b.ToTable("Species");
                 });
 
-            modelBuilder.Entity("Api.Models.Data.Wand", b =>
+            modelBuilder.Entity("HarryPotterApi.Models.Data.Wand", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -206,43 +166,51 @@ namespace Api.Migrations
                     b.ToTable("Wands");
                 });
 
-            modelBuilder.Entity("Api.Models.Data.Character", b =>
+            modelBuilder.Entity("HarryPotterApi.Models.Data.Character", b =>
                 {
-                    b.HasOne("Api.Models.Data.Eye", "Eye")
-                        .WithMany()
-                        .HasForeignKey("EyeId");
-
-                    b.HasOne("Api.Models.Data.Gender", "Gender")
-                        .WithMany()
+                    b.HasOne("HarryPotterApi.Models.Data.Gender", "Gender")
+                        .WithMany("Characters")
                         .HasForeignKey("GenderId");
 
-                    b.HasOne("Api.Models.Data.Hair", "Hair")
-                        .WithMany()
-                        .HasForeignKey("HairId");
-
-                    b.HasOne("Api.Models.Data.House", "House")
-                        .WithMany()
+                    b.HasOne("HarryPotterApi.Models.Data.House", "House")
+                        .WithMany("Characters")
                         .HasForeignKey("HouseId");
 
-                    b.HasOne("Api.Models.Data.Species", "Species")
-                        .WithMany()
+                    b.HasOne("HarryPotterApi.Models.Data.Species", "Species")
+                        .WithMany("Characters")
                         .HasForeignKey("SpeciesId");
 
-                    b.HasOne("Api.Models.Data.Wand", "Wand")
-                        .WithMany()
+                    b.HasOne("HarryPotterApi.Models.Data.Wand", "Wand")
+                        .WithMany("Characters")
                         .HasForeignKey("WandId");
 
-                    b.Navigation("Eye");
-
                     b.Navigation("Gender");
-
-                    b.Navigation("Hair");
 
                     b.Navigation("House");
 
                     b.Navigation("Species");
 
                     b.Navigation("Wand");
+                });
+
+            modelBuilder.Entity("HarryPotterApi.Models.Data.Gender", b =>
+                {
+                    b.Navigation("Characters");
+                });
+
+            modelBuilder.Entity("HarryPotterApi.Models.Data.House", b =>
+                {
+                    b.Navigation("Characters");
+                });
+
+            modelBuilder.Entity("HarryPotterApi.Models.Data.Species", b =>
+                {
+                    b.Navigation("Characters");
+                });
+
+            modelBuilder.Entity("HarryPotterApi.Models.Data.Wand", b =>
+                {
+                    b.Navigation("Characters");
                 });
 #pragma warning restore 612, 618
         }

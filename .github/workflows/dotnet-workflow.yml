@@ -32,7 +32,7 @@ jobs:
 #        run: dotnet test --no-restore --verbosity normal
       - name: Build, Push and Deploy to Heroku
         id: heroku
-      - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+        uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_email: ${{ env.HEROKU_EMAIL }}
           heroku_api_key: ${{ env.HEROKU_API_KEY }}

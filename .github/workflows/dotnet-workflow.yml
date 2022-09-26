@@ -25,5 +25,11 @@ jobs:
         run: dotnet build --configuration Release --no-restore
 #      - name: Test
 #        run: dotnet test --no-restore --verbosity normal
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v2
+      - name: Build, Push and Deploy to Heroku
+        id: heroku
+        uses: jctaveras/heroku-deploy@v2.1.17  # use the latest version of the action
+        with:
+          email: ${{ secrets.HEROKU_EMAIL }} # your heroku email
+          api_key: ${{ secrets.HEROKU_API_KEY }} # your  heroku api key
+          app_name: ${{ secrets.HEROKU_APP_NAME }} # you aplication name
+          dockerfile_path: './HarryPotterApi' # set the path to the folder wher the Dokerfile is located

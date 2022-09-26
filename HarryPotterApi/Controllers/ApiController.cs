@@ -57,5 +57,27 @@ namespace Api.Controllers
         {
             return await _houseService.GetAll();
         }
+        
+        [HttpGet("Houses/{id:int}/Characters")]
+        public async Task<IActionResult> GetCharactersByHouse([FromRoute] int id, [FromQuery] int page = 1)
+        {
+            const int take = 25;
+            var skip = take * (page - 1);
+            var total = await _houseService.GetCharactersCount(id);
+            var pages = total / take;
+            if (total % take > 0)
+            {
+                pages += 1;
+            }
+            var items = await _houseService.GetCharacters(id, skip, take);
+
+            return Ok(new
+            {
+                totalPages = pages,
+                currentPage = page,
+                items = items.Count,
+                data = items
+            });
+        }
     }
 }

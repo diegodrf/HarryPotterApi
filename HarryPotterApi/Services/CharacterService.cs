@@ -14,6 +14,7 @@ namespace Api.Services
         public async Task<List<Character>> GetAll(int skip, int take)
         {
             return await _context.Characters
+                .AsNoTracking()
                 .Include(i => i.House)
                 .Include(i => i.Species)
                 .Include(i => i.Gender)
@@ -26,7 +27,7 @@ namespace Api.Services
 
         public async Task<int> GetAllCount()
         {
-            return await _context.Characters.CountAsync();
+            return await _context.Characters.AsNoTracking().CountAsync();
         }
     }
 }

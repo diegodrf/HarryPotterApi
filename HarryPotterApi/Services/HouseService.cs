@@ -23,4 +23,27 @@ public class HouseService : IHouseService
         // TODO implement get house by id
         throw new NotImplementedException();
     }
+
+    public async Task<List<Character>> GetCharacters(int houseId, int skip, int take)
+    {
+        return await _context.Characters
+            .AsNoTracking()
+            .Include(i => i.House)
+            .Include(i => i.Species)
+            .Include(i => i.Gender)
+            .Include(i => i.Wand)
+            .Where(i => i.HouseId == houseId)
+            .OrderBy(i => i.Id)
+            .Skip(skip)
+            .Take(take)
+            .ToListAsync();
+    }
+
+    public async Task<int> GetCharactersCount(int houseId)
+    {
+        return await _context.Characters
+            .AsNoTracking()
+            .Where(i => i.HouseId == houseId)
+            .CountAsync();
+    }
 }

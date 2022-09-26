@@ -23,11 +23,27 @@ namespace Api.Controllers
         }
 
         [HttpGet("Characters")]
-        public async Task<IEnumerable<Character>> GetCharacters()
+        public async Task<IActionResult> GetCharacters([FromQuery] int page = 1)
         {
             try
             {
-                return await _characterService.GetAll();
+                const int take = 25;
+                var skip = take * (page - 1);
+                var total = await _characterService.GetAllCount();
+                var pages = total / take;
+                if (total % take > 0)
+                {
+                    pages += 1;
+                }
+                var items = await _characterService.GetAll(skip, take);
+
+                return Ok(new
+                {
+                    totalPages = pages,
+                    currentPage = page,
+                    items = items.Count,
+                    data = items
+                });
             }
             catch (Exception e)
             {

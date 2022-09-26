@@ -1,4 +1,4 @@
-﻿name: dotnet package
+﻿name: dotnet workflow
 
 on: 
   push:

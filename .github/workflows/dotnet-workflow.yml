@@ -27,7 +27,7 @@ jobs:
 #        run: dotnet test --no-restore --verbosity normal
       - name: Build, Push and Deploy to Heroku
         id: heroku
-        uses: jctaveras/heroku-deploy@v2.1.17  # use the latest version of the action
+        uses: jctaveras/heroku-deploy@2.1.17  # use the latest version of the action
         with:
           email: ${{ secrets.HEROKU_EMAIL }} # your heroku email
           api_key: ${{ secrets.HEROKU_API_KEY }} # your  heroku api key

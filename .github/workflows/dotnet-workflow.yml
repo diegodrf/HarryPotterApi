@@ -32,5 +32,5 @@ jobs:
           email: 'diego.rdfaria@gmail.com'
           api_key: 'e1219e75-e4e0-4001-a2b1-c770eb7ce698'
           app_name: 'harry-potter--api'
-          dockerfile_path: './HarryPotterApi'
+          dockerfile_path: 'HarryPotterApi'
           process_type: 'web'

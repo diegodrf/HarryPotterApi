@@ -21,5 +21,6 @@ namespace Api.Data.Connections
         public DbSet<Species> Species { get; set; } = default!;
         public DbSet<Wand> Wands { get; set; } = default!;
         public DbSet<Character> Characters { get; set; } = default!;
+        public DbSet<User> Users { get; set; } = default!;
     }
 }

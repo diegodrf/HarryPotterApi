@@ -45,6 +45,17 @@ public class DataSeedingService
         _characters.UnionWith(GetCharacters(charactersFromJson!));
         await _context.Characters.AddRangeAsync(_characters);
 
+        var admin = new User()
+        {
+            Id = new Guid("2C474EC9-DAFD-42EE-92F2-BF37C6A836CD"),
+            Username = "admin@admin.com",
+            Password = "admin",
+            IsBlocked = false,
+            CreatedAt = DateTime.UtcNow,
+            Role = "admin"
+        };
+        await _context.Users.AddAsync(admin);
+        
         await _context.SaveChangesAsync();
     }
 

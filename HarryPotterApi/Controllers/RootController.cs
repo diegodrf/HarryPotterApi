@@ -7,6 +7,13 @@ namespace Api.Controllers;
 [Route("")]
 public class RootController: ControllerBase
 {
+    private readonly ILogger<RootController> _logger;
+
+    public RootController(ILogger<RootController> logger)
+    {
+        _logger = logger;
+    }
+    
     [HttpGet]
     public IActionResult Index()
     {
@@ -15,6 +22,7 @@ public class RootController: ControllerBase
         var port = HttpContext.Request.Host.Port ?? (scheme.Contains('s') ? 443 : 80);
         var path = "swagger/index.html";
         var uri = new UriBuilder(scheme, host, port, path).ToString();
+        _logger.LogInformation(uri);
         return Redirect(uri);
     }
 }

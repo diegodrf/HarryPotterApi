@@ -1,4 +1,5 @@
 using System.Text;
+using System.Text.Json;
 using Api.Data.Connections;
 using Api.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -15,7 +16,17 @@ var jwtSecret = config.GetValue<string>("JwtSecret");
 
 var builder = WebApplication.CreateBuilder();
 
-builder.Logging.AddConsole();
+// Add Log system
+builder.Logging.SetMinimumLevel(LogLevel.Information);
+builder.Logging.AddJsonConsole(options =>
+{
+    options.IncludeScopes = true;
+    options.TimestampFormat = "hh:MM:ss ";
+    options.JsonWriterOptions = new JsonWriterOptions
+    {
+        Indented = true
+    };
+});
 
 // Add Database context
 builder.Services.AddDbContext<HarryPotterApiDbContext>(options => options.UseNpgsql(connectionString));

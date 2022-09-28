@@ -1,5 +1,6 @@
 ﻿using Api.Models.Data;
 using Api.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Controllers
@@ -21,7 +22,7 @@ namespace Api.Controllers
             _characterService = characterService;
             _houseService = houseService;
         }
-
+        
         [HttpGet("Characters")]
         public async Task<IActionResult> GetCharacters([FromQuery] int page = 1)
         {
@@ -79,5 +80,12 @@ namespace Api.Controllers
                 data = items
             });
         }
+
+        [HttpGet("authenticated")]
+        [Authorize]
+        public string Authenticated()
+        {
+            return $"Hello World! Authenticated! {User.Identity?.Name}"; 
+        } 
     }
 }

@@ -70,11 +70,11 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     // Populate Database
-    await app.Services.CreateScope().ServiceProvider.GetRequiredService<DataSeedingService>().Run();
-
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    await app.Services.CreateScope().ServiceProvider.GetRequiredService<DataSeedingService>().Run(); 
 }
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 

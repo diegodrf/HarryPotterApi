@@ -24,7 +24,7 @@ public class JwtService: IJwtService
             Subject = new ClaimsIdentity(new Claim[]
             {
                 new(ClaimTypes.Name, user.Id.ToString()),
-                new(ClaimTypes.Role, user.Role)
+                new(ClaimTypes.Role, user.Role),
             }),
             Expires = DateTime.UtcNow.AddHours(2),
             SigningCredentials =

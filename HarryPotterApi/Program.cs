@@ -32,6 +32,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+var key = Encoding.ASCII.GetBytes(jwtSecret);
 builder.Services.AddAuthentication(i =>
     {
         i.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -39,7 +40,7 @@ builder.Services.AddAuthentication(i =>
     })
     .AddJwtBearer(i =>
     {
-        var key = Encoding.ASCII.GetBytes(jwtSecret);
+        
         i.RequireHttpsMetadata = false;
         i.SaveToken = true;
         i.TokenValidationParameters = new TokenValidationParameters
@@ -47,7 +48,7 @@ builder.Services.AddAuthentication(i =>
             ValidateIssuerSigningKey = true,
             IssuerSigningKey = new SymmetricSecurityKey(key),
             ValidateIssuer = false,
-            ValidateAudience = true
+            ValidateAudience = false
         };
     });
 

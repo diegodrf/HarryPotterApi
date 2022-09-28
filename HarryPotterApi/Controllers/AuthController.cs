@@ -6,10 +6,10 @@ using Microsoft.AspNetCore.Mvc;
 namespace Api.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/auth")]
 public class AuthController: ControllerBase
 {
-    // TODO Implements https://balta.io/artigos/aspnet-5-autenticacao-autorizacao-bearer-jwt [Autorizando]
+    // TODO Add Basic Auth
     [HttpPost("authenticate")]
     public async Task<IActionResult> Authenticate(
         [FromServices] IJwtService jwtService,

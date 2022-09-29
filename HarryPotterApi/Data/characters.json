@@ -106,11 +106,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": "tabby cat",
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -154,11 +150,7 @@
   "ancestry": null,
   "eyeColour": "brown",
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": "swan",
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -178,11 +170,7 @@
   "ancestry": "half-blood",
   "eyeColour": "black",
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": "doe",
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -250,11 +238,7 @@
   "ancestry": null,
   "eyeColour": "grey",
   "hairColour": "blonde",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": "hare",
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -298,11 +282,7 @@
   "ancestry": "pure-blood",
   "eyeColour": "grey",
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": "hare",
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -346,11 +326,7 @@
   "ancestry": "pure-blood",
   "eyeColour": "blue",
   "hairColour": "red",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": "weasel",
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -442,11 +418,7 @@
   "ancestry": "pure-blood",
   "eyeColour": "brown",
   "hairColour": "brown",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": "lynx",
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -514,11 +486,7 @@
   "ancestry": "pure-blood",
   "eyeColour": "black",
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -538,11 +506,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": "brown",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -562,11 +526,7 @@
   "ancestry": null,
   "eyeColour": "yellow",
   "hairColour": "brown",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -586,11 +546,7 @@
   "ancestry": "squib",
   "eyeColour": null,
   "hairColour": "grey",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -610,11 +566,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -634,11 +586,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": "blonde",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -658,11 +606,7 @@
   "ancestry": "muggle",
   "eyeColour": "blue",
   "hairColour": "blond",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -730,11 +674,7 @@
   "ancestry": "half-blood",
   "eyeColour": "blue",
   "hairColour": "silver",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -754,11 +694,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -778,11 +714,7 @@
   "ancestry": "squib",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -802,11 +734,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -826,11 +754,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -850,11 +774,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -874,11 +794,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -898,11 +814,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -922,11 +834,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -946,11 +854,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -970,11 +874,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -994,11 +894,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1018,11 +914,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1042,11 +934,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1066,11 +954,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1090,11 +974,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1114,11 +994,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1138,11 +1014,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1162,11 +1034,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1186,11 +1054,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -1210,11 +1074,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1234,11 +1094,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1258,11 +1114,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1282,11 +1134,7 @@
   "ancestry": null,
   "eyeColour": "pale, silvery",
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1306,11 +1154,7 @@
   "ancestry": null,
   "eyeColour": "amber",
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1330,11 +1174,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": "red",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1354,11 +1194,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": "red",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1378,11 +1214,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": "red",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1402,11 +1234,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": "red",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1426,11 +1254,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1450,11 +1274,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": "red",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1474,11 +1294,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": "red",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1498,11 +1314,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1522,11 +1334,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1546,11 +1354,7 @@
   "ancestry": "half-blood",
   "eyeColour": null,
   "hairColour": "blonde",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1570,11 +1374,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1594,11 +1394,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1618,11 +1414,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1642,11 +1434,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1666,11 +1454,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1690,11 +1474,7 @@
   "ancestry": "muggleborn",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1714,11 +1494,7 @@
   "ancestry": "half-blood",
   "eyeColour": null,
   "hairColour": "sandy",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1738,11 +1514,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1762,11 +1534,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1786,11 +1554,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1810,11 +1574,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1834,11 +1594,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1858,11 +1614,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1882,11 +1634,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1906,11 +1654,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1930,11 +1674,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -1954,11 +1694,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -1978,11 +1714,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2002,11 +1734,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2026,11 +1754,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -2050,11 +1774,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -2074,11 +1794,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2098,11 +1814,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2122,11 +1834,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -2146,11 +1854,7 @@
   "ancestry": null,
   "eyeColour": "yellow",
   "hairColour": "grey",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -2170,11 +1874,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -2194,11 +1894,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2218,11 +1914,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2242,11 +1934,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -2266,11 +1954,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -2290,11 +1974,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -2314,11 +1994,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -2338,11 +2014,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -2362,11 +2034,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -2386,11 +2054,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -2410,11 +2074,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2434,11 +2094,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2458,11 +2114,7 @@
   "ancestry": null,
   "eyeColour": "blue",
   "hairColour": "blond",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2482,11 +2134,7 @@
   "ancestry": null,
   "eyeColour": "orange",
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2506,11 +2154,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "red",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2530,11 +2174,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2554,11 +2194,7 @@
   "ancestry": null,
   "eyeColour": "blue",
   "hairColour": "blond",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -2578,11 +2214,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2602,11 +2234,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2626,11 +2254,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2650,11 +2274,7 @@
   "ancestry": null,
   "eyeColour": "green",
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2674,11 +2294,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2698,11 +2314,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2722,11 +2334,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "white",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2794,11 +2402,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "ginger",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2818,11 +2422,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2842,11 +2442,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2866,11 +2462,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2890,11 +2482,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2914,11 +2502,7 @@
   "ancestry": "muggleborn",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -2938,11 +2522,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2962,11 +2542,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -2986,11 +2562,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3010,11 +2582,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3034,11 +2602,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3058,11 +2622,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3082,11 +2642,7 @@
   "ancestry": "muggleborn",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3106,11 +2662,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3130,11 +2682,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3154,11 +2702,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3178,11 +2722,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3202,11 +2742,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -3226,11 +2762,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -3250,11 +2782,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "blond",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": "boar",
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -3274,11 +2802,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "white",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3298,11 +2822,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -3322,11 +2842,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "grey",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3346,11 +2862,7 @@
   "ancestry": null,
   "eyeColour": "white",
   "hairColour": "brown",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3370,11 +2882,7 @@
   "ancestry": null,
   "eyeColour": "black",
   "hairColour": "brown",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3394,11 +2902,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3418,11 +2922,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3442,11 +2942,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3466,11 +2962,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3490,11 +2982,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3514,11 +3002,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -3538,11 +3022,7 @@
   "ancestry": null,
   "eyeColour": "orange",
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3586,11 +3066,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3610,11 +3086,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -3634,11 +3106,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -3658,11 +3126,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -3682,11 +3146,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -3706,11 +3166,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -3730,11 +3186,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -3754,11 +3206,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3778,11 +3226,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3802,11 +3246,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3826,11 +3266,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3850,11 +3286,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3874,11 +3306,7 @@
   "ancestry": null,
   "eyeColour": "blue",
   "hairColour": "blond",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3898,11 +3326,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "brown",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3922,11 +3346,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3946,11 +3366,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3970,11 +3386,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -3994,11 +3406,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4018,11 +3426,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4042,11 +3446,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4066,11 +3466,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4090,11 +3486,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4114,11 +3506,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4138,11 +3526,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4186,11 +3570,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4210,11 +3590,7 @@
   "ancestry": "pure-blood",
   "eyeColour": "blue",
   "hairColour": "blonde",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4234,11 +3610,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4258,11 +3630,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4282,11 +3650,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4306,11 +3670,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4330,11 +3690,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4354,11 +3710,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4378,11 +3730,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4402,11 +3750,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4426,11 +3770,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4450,11 +3790,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4474,11 +3810,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4498,11 +3830,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4522,11 +3850,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4546,11 +3870,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4570,11 +3890,7 @@
   "ancestry": "muggleborn",
   "eyeColour": null,
   "hairColour": "brown",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -4594,11 +3910,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -4618,11 +3930,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -4642,11 +3950,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -4666,11 +3970,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -4690,11 +3990,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -4714,11 +4010,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -4738,11 +4030,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -4762,11 +4050,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -4786,11 +4070,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -4810,11 +4090,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -4834,11 +4110,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -4858,11 +4130,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -4882,11 +4150,7 @@
   "ancestry": "pure-blood",
   "eyeColour": "dark",
   "hairColour": "grey",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -4906,11 +4170,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4930,11 +4190,7 @@
   "ancestry": null,
   "eyeColour": "blue",
   "hairColour": "silver",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4954,11 +4210,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -4978,11 +4230,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -5002,11 +4250,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -5026,11 +4270,7 @@
   "ancestry": null,
   "eyeColour": "blue",
   "hairColour": "blonde",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5050,11 +4290,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "white",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5074,11 +4310,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "blonde",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5098,11 +4330,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -5122,11 +4350,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "grey",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -5146,11 +4370,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5170,11 +4390,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5194,11 +4410,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5218,11 +4430,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5242,11 +4450,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "dark",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5266,11 +4470,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "grey",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5290,11 +4490,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5314,11 +4510,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5338,11 +4530,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5362,11 +4550,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5386,11 +4570,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": "white",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5410,11 +4590,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5434,11 +4610,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5458,11 +4630,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5482,11 +4650,7 @@
   "ancestry": null,
   "eyeColour": "hazel",
   "hairColour": "grey",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5506,11 +4670,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "brown",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5530,11 +4690,7 @@
   "ancestry": "pure-blood",
   "eyeColour": "blue",
   "hairColour": "silver",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5554,11 +4710,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5578,11 +4730,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "blond",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5602,11 +4750,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5626,11 +4770,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5650,11 +4790,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5674,11 +4810,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5698,11 +4830,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5722,11 +4850,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5746,11 +4870,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5770,11 +4890,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": "brown",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5794,11 +4910,7 @@
   "ancestry": "muggleborn",
   "eyeColour": null,
   "hairColour": "blond",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5818,11 +4930,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5842,11 +4950,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5866,11 +4970,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5890,11 +4990,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5914,11 +5010,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5938,11 +5030,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5962,11 +5050,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "grey",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -5986,11 +5070,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6010,11 +5090,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6034,11 +5110,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6058,11 +5130,7 @@
   "ancestry": "half-blood",
   "eyeColour": "blue",
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": "goat",
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6082,11 +5150,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6106,11 +5170,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6130,11 +5190,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -6154,11 +5210,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6178,11 +5230,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6202,11 +5250,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -6226,11 +5270,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -6250,11 +5290,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -6274,11 +5310,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -6298,11 +5330,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -6322,11 +5350,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -6346,11 +5370,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6370,11 +5390,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -6394,11 +5410,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "blond",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -6418,11 +5430,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -6442,11 +5450,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6466,11 +5470,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6490,11 +5490,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6514,11 +5510,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -6538,11 +5530,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -6562,11 +5550,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6586,11 +5570,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "silver",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6610,11 +5590,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6634,11 +5610,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6658,11 +5630,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6682,11 +5650,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6706,11 +5670,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6730,11 +5690,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6754,11 +5710,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6778,11 +5730,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -6802,11 +5750,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "blonde",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -6826,11 +5770,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6850,11 +5790,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "grey",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6874,11 +5810,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -6898,11 +5830,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -6922,11 +5850,7 @@
   "ancestry": null,
   "eyeColour": "green",
   "hairColour": "brown",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6946,11 +5870,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -6970,11 +5890,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -6994,11 +5910,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -7018,11 +5930,7 @@
   "ancestry": null,
   "eyeColour": "brown",
   "hairColour": "grey",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7042,11 +5950,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7066,11 +5970,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7090,11 +5990,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7114,11 +6010,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7138,11 +6030,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7162,11 +6050,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7186,11 +6070,7 @@
   "ancestry": null,
   "eyeColour": "yellowish",
   "hairColour": "tawny",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7210,11 +6090,7 @@
   "ancestry": null,
   "eyeColour": "blue",
   "hairColour": "blond",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7234,11 +6110,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "grey",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7258,11 +6130,7 @@
   "ancestry": "muggleborn",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7282,11 +6150,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7306,11 +6170,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "bald",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7330,11 +6190,7 @@
   "ancestry": null,
   "eyeColour": "brown",
   "hairColour": "brown",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7354,11 +6210,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7378,11 +6230,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "blonde",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7402,11 +6250,7 @@
   "ancestry": null,
   "eyeColour": "dark",
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -7426,11 +6270,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -7450,11 +6290,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -7474,11 +6310,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7498,11 +6330,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -7522,11 +6350,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7546,11 +6370,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7570,11 +6390,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7594,11 +6410,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7618,11 +6430,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7642,11 +6450,7 @@
   "ancestry": "pure-blood",
   "eyeColour": "dark",
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7666,11 +6470,7 @@
   "ancestry": "pure-blood",
   "eyeColour": "brown",
   "hairColour": "grey",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7690,11 +6490,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": "dull",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7714,11 +6510,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7738,11 +6530,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": "dark",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7762,11 +6550,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -7786,11 +6570,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -7810,11 +6590,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -7834,11 +6610,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -7858,11 +6630,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -7882,11 +6650,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7906,11 +6670,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7930,11 +6690,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7954,11 +6710,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -7978,11 +6730,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8002,11 +6750,7 @@
   "ancestry": "muggle",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8026,11 +6770,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "dark",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -8050,11 +6790,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -8074,11 +6810,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -8098,11 +6830,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8122,11 +6850,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "dark",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8146,11 +6870,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8170,11 +6890,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8194,11 +6910,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8218,11 +6930,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -8242,11 +6950,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -8266,11 +6970,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8290,11 +6990,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8314,11 +7010,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8338,11 +7030,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8362,11 +7050,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8386,11 +7070,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8410,11 +7090,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8434,11 +7110,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8458,11 +7130,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8482,11 +7150,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8506,11 +7170,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": true,
@@ -8530,11 +7190,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8554,11 +7210,7 @@
   "ancestry": "muggleborn",
   "eyeColour": "dark",
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8578,11 +7230,7 @@
   "ancestry": "half-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8602,11 +7250,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8626,11 +7270,7 @@
   "ancestry": "half-veela",
   "eyeColour": null,
   "hairColour": "blonde",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8650,11 +7290,7 @@
   "ancestry": "quarter-veela",
   "eyeColour": null,
   "hairColour": "blonde",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8674,11 +7310,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8698,11 +7330,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8722,11 +7350,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "white",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8746,11 +7370,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "grey",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8770,11 +7390,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8794,11 +7410,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "blond",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8818,11 +7430,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8842,11 +7450,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8866,11 +7470,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8914,11 +7514,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8938,11 +7534,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8962,11 +7554,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -8986,11 +7574,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9010,11 +7594,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9034,11 +7614,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9058,11 +7634,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9082,11 +7654,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9106,11 +7674,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9130,11 +7694,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9154,11 +7714,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9178,11 +7734,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9202,11 +7754,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9226,11 +7774,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9250,11 +7794,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9274,11 +7814,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9298,11 +7834,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9322,11 +7854,7 @@
   "ancestry": "pure-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9346,11 +7874,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9370,11 +7894,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9394,11 +7914,7 @@
   "ancestry": "half-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9418,11 +7934,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9442,11 +7954,7 @@
   "ancestry": null,
   "eyeColour": "black",
   "hairColour": "white",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9466,11 +7974,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9490,11 +7994,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9514,11 +8014,7 @@
   "ancestry": "half-blood",
   "eyeColour": null,
   "hairColour": "red",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": false,
   "hogwartsStaff": false,
@@ -9538,11 +8034,7 @@
   "ancestry": "half-blood",
   "eyeColour": null,
   "hairColour": null,
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -9562,11 +8054,7 @@
   "ancestry": "half-blood",
   "eyeColour": "green",
   "hairColour": "black",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -9586,11 +8074,7 @@
   "ancestry": "half-blood",
   "eyeColour": null,
   "hairColour": "red",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -9610,11 +8094,7 @@
   "ancestry": "half-blood",
   "eyeColour": null,
   "hairColour": "brown",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -9634,11 +8114,7 @@
   "ancestry": "pure-blood",
   "eyeColour": "grey",
   "hairColour": "blond",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,
@@ -9658,11 +8134,7 @@
   "ancestry": null,
   "eyeColour": null,
   "hairColour": "blonde",
-  "wand": {
-    "wood": null,
-    "core": null,
-    "length": null
-  },
+  "wand": null,
   "patronus": null,
   "hogwartsStudent": true,
   "hogwartsStaff": false,

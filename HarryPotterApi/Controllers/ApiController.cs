@@ -2,6 +2,7 @@
 using HarryPotterApi.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace HarryPotterApi.Controllers;
 
@@ -22,7 +23,11 @@ public class ApiController : ControllerBase
         _characterService = characterService;
         _houseService = houseService;
     }
-        
+    [SwaggerOperation(
+        Summary = "Get all characters",
+        Description = "This endpoint uses a paginated query.",
+        Tags = new[] {"Characters"})
+    ]
     [HttpGet("Characters")]
     public async Task<IActionResult> GetCharacters([FromQuery] int page = 1)
     {

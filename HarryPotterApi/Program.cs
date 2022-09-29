@@ -1,5 +1,4 @@
 using System.Text;
-using System.Text.Json;
 using HarryPotterApi.Data.Connections;
 using HarryPotterApi.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -34,7 +33,11 @@ builder.Services.AddSingleton<IJwtService>(new JwtService(jwtSecret));
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(configurations =>
+    {
+        configurations.EnableAnnotations();
+    }
+    );
 
 var key = Encoding.ASCII.GetBytes(jwtSecret);
 builder.Services.AddAuthentication(i =>
@@ -71,7 +74,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseSwagger();
-app.UseSwaggerUI();
+app.UseSwaggerUI(setup =>
+{
+    setup.DocumentTitle = "Harry Potter API";
+});
 
 app.UseHttpsRedirection();
 

@@ -26,15 +26,9 @@ namespace HarryPotterApi.Models.Data
         public bool IsWizard { get; set; }
 
         public string? Ancestry { get; set; }
-
-        // public Eye? Eye { get; set; }
-        // [JsonIgnore]
-        // public int? EyeId { get; set; }
+        
         public string? Eye { get; set; }
-
-        // public Hair? Hair { get; set; }
-        // [JsonIgnore]
-        // public int? HairId { get; set; }
+        
         public string? Hair { get; set; }
         
         public Wand? Wand { get; set; }

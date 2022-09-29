@@ -25,8 +25,8 @@ public class DataSeedingService
     
     public async Task Run(string imagesBaseUrl)
     {
-        // var isEmpty = await IsEmpty();
-        // if (!isEmpty) return;
+        var isEmpty = await IsEmpty();
+        if (!isEmpty) return;
         
         // TODO Implements external data source
         var path = @"C:\Users\Diego\source\repos\HarryPotterApi\HarryPotterApi\Data\characters.json";
@@ -96,7 +96,14 @@ public class DataSeedingService
             Ancestry = json.Ancestry,
             Eye = json.EyeColor,
             Hair = json.HairColor,
-            Wand = new Wand { Wood = json.Wand?.Wood, Core = json.Wand?.Core, Length = json.Wand?.Length},
+            Wand = json.Wand is null
+                ? null
+                : new Wand
+                {
+                    Wood = json.Wand!.Wood, 
+                    Core = json.Wand!.Core, 
+                    Length = json.Wand!.Length
+                },
             Patronus = json.Patronus ?? null,
             IsHogwartsStudent = json.IsHogwartsStudent ?? false,
             IsHogwartsStaff = json.IsHogwartsStaff ?? false,

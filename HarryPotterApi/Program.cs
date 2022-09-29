@@ -17,16 +17,8 @@ var jwtSecret = config.GetValue<string>("JwtSecret");
 var builder = WebApplication.CreateBuilder();
 
 // Add Log system
-builder.Logging.SetMinimumLevel(LogLevel.Information);
-builder.Logging.AddJsonConsole(options =>
-{
-    options.IncludeScopes = true;
-    options.TimestampFormat = "hh:MM:ss ";
-    options.JsonWriterOptions = new JsonWriterOptions
-    {
-        Indented = true
-    };
-});
+builder.Logging.SetMinimumLevel(LogLevel.Error);
+builder.Logging.AddConsole();
 
 // Add Database context
 builder.Services.AddDbContext<HarryPotterApiDbContext>(options => options.UseNpgsql(connectionString));

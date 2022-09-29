@@ -39,6 +39,7 @@
     <Compile Remove="Services\EyeService.cs" />
     <Compile Remove="Services\IEyeService.cs" />
     <Compile Remove="Data\Images\**" />
+    <Compile Remove="Services\ImageDownloaderService.cs" />
   </ItemGroup>
 
   <ItemGroup>

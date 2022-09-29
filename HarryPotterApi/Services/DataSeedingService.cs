@@ -17,15 +17,16 @@ public class DataSeedingService
     public DataSeedingService(HarryPotterApiDbContext context)
     {
         _context = context;
-        _species = new();
-        _genders = new();
-        _houses = new();
-        _characters = new();
+        _species = new HashSet<Species>();
+        _genders = new HashSet<Gender>();
+        _houses = new HashSet<House>();
+        _characters = new HashSet<Character>();
     }
-    public async Task Run()
+    
+    public async Task Run(string imagesBaseUrl)
     {
-        var isEmpty = await IsEmpty();
-        if (!isEmpty) return;
+        // var isEmpty = await IsEmpty();
+        // if (!isEmpty) return;
         
         // TODO Implements external data source
         var path = @"C:\Users\Diego\source\repos\HarryPotterApi\HarryPotterApi\Data\characters.json";
@@ -42,7 +43,7 @@ public class DataSeedingService
         _houses.UnionWith(GetHouses(charactersFromJson!));
         await _context.Houses.AddRangeAsync(_houses);
         
-        _characters.UnionWith(GetCharacters(charactersFromJson!));
+        _characters.UnionWith(GetCharacters(charactersFromJson!, imagesBaseUrl));
         await _context.Characters.AddRangeAsync(_characters);
 
         var admin = new User()
@@ -82,7 +83,7 @@ public class DataSeedingService
             .Select(e => new House { Name = e.House! })
             .ToHashSet();
     }
-    private IEnumerable<Character> GetCharacters(IEnumerable<CharacterFromJson> dataSource)
+    private IEnumerable<Character> GetCharacters(IEnumerable<CharacterFromJson> dataSource, string imagesBaseUrl)
     {
         return dataSource.Select(json => new Character
         {
@@ -101,16 +102,15 @@ public class DataSeedingService
             IsHogwartsStaff = json.IsHogwartsStaff ?? false,
             Actor = json.Actor ?? "Unknown",
             IsAlive = json.IsAlive ?? false,
-            ImageUrl = null // TODO
+            ImageUrl = json.ImageUrl is null 
+                ? null 
+                : imagesBaseUrl + json.GetFilenameFromImageUrl()!
         }).ToList();
     }
 
     private async Task<bool> IsEmpty()
     {
         var hasCharacters = await _context.Characters.AnyAsync();
-        var hasWands = await _context.Wands.AnyAsync();
-        var hasHouses = await _context.Houses.AnyAsync();
-
-        return !(hasCharacters || hasHouses || hasWands);
+        return !hasCharacters;
     }
 }

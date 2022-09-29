@@ -67,6 +67,10 @@ namespace HarryPotterApi.Models.Json
         [JsonPropertyName("image")]
         public string? ImageUrl { get; set; }
 
+        public string? GetFilenameFromImageUrl()
+        {
+            return ImageUrl?.Split('/')[^1];
+        }
         public override string ToString()
         {
             return $"CharacterJson({Name})";

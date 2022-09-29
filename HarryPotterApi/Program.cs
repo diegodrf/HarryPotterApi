@@ -13,6 +13,7 @@ var config = new ConfigurationBuilder()
 
 var connectionString = config.GetValue<string>("HarryPotterDbConnectionString");
 var jwtSecret = config.GetValue<string>("JwtSecret");
+var imagesBaseUrl = config.GetValue<string>("ImagesBaseUrl");
 
 var builder = WebApplication.CreateBuilder();
 
@@ -62,7 +63,11 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     // Populate Database
-    await app.Services.CreateScope().ServiceProvider.GetRequiredService<DataSeedingService>().Run(); 
+    await app.Services
+        .CreateScope()
+        .ServiceProvider
+        .GetRequiredService<DataSeedingService>()
+        .Run(imagesBaseUrl); 
 }
 
 app.UseSwagger();

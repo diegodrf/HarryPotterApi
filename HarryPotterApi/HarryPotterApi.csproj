@@ -10,10 +10,12 @@
 
   <ItemGroup>
     <Content Remove="Data\characters.json" />
+    <Content Remove="Data\Images\**" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="Data\characters.json" />
+    <None Remove="Data\Images\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -36,6 +38,11 @@
   <ItemGroup>
     <Compile Remove="Services\EyeService.cs" />
     <Compile Remove="Services\IEyeService.cs" />
+    <Compile Remove="Data\Images\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Data\Images\**" />
   </ItemGroup>
 
 </Project>

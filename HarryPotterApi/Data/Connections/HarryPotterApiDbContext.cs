@@ -1,7 +1,7 @@
-﻿using Api.Models.Data;
+﻿using HarryPotterApi.Models.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace Api.Data.Connections
+namespace HarryPotterApi.Data.Connections
 {
     public class HarryPotterApiDbContext: DbContext
     {

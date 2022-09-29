@@ -1,10 +1,10 @@
 ﻿using System.Text.Json;
-using Api.Data.Connections;
-using Api.Models.Data;
-using Api.Models.Json;
+using HarryPotterApi.Data.Connections;
+using HarryPotterApi.Models.Data;
+using HarryPotterApi.Models.Json;
 using Microsoft.EntityFrameworkCore;
 
-namespace Api.Services;
+namespace HarryPotterApi.Services;
 
 public class DataSeedingService
 {

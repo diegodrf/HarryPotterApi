@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Api.Services
+namespace HarryPotterApi.Services
 {
     internal static class ImageDownloaderService
     {

@@ -2,7 +2,7 @@
 using System.Text.Json.Serialization;
 using System.Text.Json;
 
-namespace Api.Models.Json.Converter
+namespace HarryPotterApi.Models.Json.Converter
 {
     public class DateTimeCustomJsonConverter : JsonConverter<DateTime>
     {

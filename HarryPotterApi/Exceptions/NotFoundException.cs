@@ -1,4 +1,4 @@
-﻿namespace Api.Services.Exceptions;
+﻿namespace HarryPotterApi.Services.Exceptions;
 
 public class NotFoundException : ApplicationException
 {

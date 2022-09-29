@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace Api.Models.Data
+namespace HarryPotterApi.Models.Data
 {
     public class Species
     {

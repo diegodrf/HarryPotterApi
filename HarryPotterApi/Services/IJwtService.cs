@@ -1,6 +1,6 @@
-﻿using Api.Models.Data;
+﻿using HarryPotterApi.Models.Data;
 
-namespace Api.Services;
+namespace HarryPotterApi.Services;
 
 public interface IJwtService
 {

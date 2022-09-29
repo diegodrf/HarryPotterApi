@@ -1,9 +1,9 @@
-﻿using Api.Models.Data;
-using Api.Services;
-using Api.Services.Exceptions;
+﻿using HarryPotterApi.Models.Data;
+using HarryPotterApi.Services;
+using HarryPotterApi.Services.Exceptions;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Api.Controllers;
+namespace HarryPotterApi.Controllers;
 
 [ApiController]
 [Route("api/auth")]

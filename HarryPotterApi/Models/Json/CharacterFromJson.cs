@@ -1,5 +1,4 @@
-﻿using Api.Models.Json.Converter;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -7,8 +6,9 @@ using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using HarryPotterApi.Models.Json.Converter;
 
-namespace Api.Models.Json
+namespace HarryPotterApi.Models.Json
 {
     internal class CharacterFromJson
     {

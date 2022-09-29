@@ -2,7 +2,7 @@
 using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
 
-namespace Api.Models.Data;
+namespace HarryPotterApi.Models.Data;
 
 [Index(nameof(Username), IsUnique = true)]
 public class User

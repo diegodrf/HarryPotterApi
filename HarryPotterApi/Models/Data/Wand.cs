@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Api.Models.Data
+namespace HarryPotterApi.Models.Data
 {
     public class Wand
     {

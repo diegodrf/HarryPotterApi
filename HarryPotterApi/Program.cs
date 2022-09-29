@@ -1,7 +1,7 @@
 using System.Text;
 using System.Text.Json;
-using Api.Data.Connections;
-using Api.Services;
+using HarryPotterApi.Data.Connections;
+using HarryPotterApi.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;

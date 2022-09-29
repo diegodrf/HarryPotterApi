@@ -1,10 +1,10 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Api.Models.Data;
+using HarryPotterApi.Models.Data;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Api.Services;
+namespace HarryPotterApi.Services;
 
 public class JwtService: IJwtService
 {

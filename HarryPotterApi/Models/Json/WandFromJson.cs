@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace Api.Models.Json
+namespace HarryPotterApi.Models.Json
 {
     public class WandFromJson
     {

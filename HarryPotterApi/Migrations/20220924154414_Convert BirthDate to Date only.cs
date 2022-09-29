@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Api.Migrations
+namespace HarryPotterApi.Migrations
 {
     public partial class ConvertBirthDatetoDateonly : Migration
     {

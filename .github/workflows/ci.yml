@@ -1,4 +1,4 @@
-﻿name: dotnet workflow
+﻿name: CI
 
 on: 
   push:

@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>8aa944f4-819e-42c8-8c82-9b53f1ad9284</UserSecretsId>
-    <RootNamespace>Api</RootNamespace>
+    <RootNamespace>HarryPotterApi</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

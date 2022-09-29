@@ -13,10 +13,8 @@ namespace HarryPotterApi.Data.Connections
             AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
             AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);
         }
-
-        // public DbSet<Eye> Eyes { get; set;  } = default!;
+        
         public DbSet<Gender> Genders { get; set; } = default!;
-        // public DbSet<Hair> Hairs { get; set; } = default!;
         public DbSet<House> Houses { get; set; } = default!;
         public DbSet<Species> Species { get; set; } = default!;
         public DbSet<Wand> Wands { get; set; } = default!;

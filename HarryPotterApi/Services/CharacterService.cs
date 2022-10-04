@@ -11,7 +11,7 @@ namespace HarryPotterApi.Services
         {
             _context = context;
         }
-        public async Task<List<Character>> GetAll(int skip, int take)
+        public async Task<List<Character>> GetAllAsync(int skip, int take)
         {
             return await _context.Characters
                 .AsNoTracking()
@@ -25,7 +25,7 @@ namespace HarryPotterApi.Services
                 .ToListAsync();
         }
 
-        public async Task<int> GetAllCount()
+        public async Task<int> GetAllCountAsync()
         {
             return await _context.Characters.AsNoTracking().CountAsync();
         }

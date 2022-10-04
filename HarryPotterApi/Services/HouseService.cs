@@ -12,19 +12,19 @@ public class HouseService : IHouseService
     {
         _context = context;
     }
-    public async Task<List<House>> GetAll()
+    public async Task<List<House>> GetAllAsync()
     {
         return await _context.Houses.ToListAsync();
 
     }
 
-    public Task<House> GetById(int id)
+    public Task<House> GetByIdAsync(int id)
     {
         // TODO implement get house by id
         throw new NotImplementedException();
     }
 
-    public async Task<List<Character>> GetCharacters(int houseId, int skip, int take)
+    public async Task<List<Character>> GetCharactersAsync(int houseId, int skip, int take)
     {
         return await _context.Characters
             .AsNoTracking()
@@ -39,7 +39,7 @@ public class HouseService : IHouseService
             .ToListAsync();
     }
 
-    public async Task<int> GetCharactersCount(int houseId)
+    public async Task<int> GetCharactersCountAsync(int houseId)
     {
         return await _context.Characters
             .AsNoTracking()

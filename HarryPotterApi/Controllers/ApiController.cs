@@ -1,4 +1,5 @@
-﻿using HarryPotterApi.Models.Data;
+﻿using HarryPotterApi.Models;
+using HarryPotterApi.Models.Data;
 using HarryPotterApi.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -29,27 +30,21 @@ public class ApiController : ControllerBase
         Tags = new[] {"Characters"})
     ]
     [HttpGet("Characters")]
-    public async Task<IActionResult> GetCharacters([FromQuery] int page = 1)
+    public async Task<PaginatedResponseModel<Character>> GetCharacters([FromQuery] int page = 1)
     {
         try
         {
             const int take = 25;
             var skip = take * (page - 1);
-            var total = await _characterService.GetAllCount();
+            var total = await _characterService.GetAllCountAsync();
             var pages = total / take;
             if (total % take > 0)
             {
                 pages += 1;
             }
-            var items = await _characterService.GetAll(skip, take);
-
-            return Ok(new
-            {
-                totalPages = pages,
-                currentPage = page,
-                items = items.Count,
-                data = items
-            });
+            var items = await _characterService.GetAllAsync(skip, take);
+            var response = new PaginatedResponseModel<Character>(pages, page, items);
+            return response;
         }
         catch (Exception e)
         {
@@ -61,29 +56,22 @@ public class ApiController : ControllerBase
     [HttpGet("Houses")]
     public async Task<IEnumerable<House>> GetHouses()
     {
-        return await _houseService.GetAll();
+        return await _houseService.GetAllAsync();
     }
         
     [HttpGet("Houses/{id:int}/Characters")]
-    public async Task<IActionResult> GetCharactersByHouse([FromRoute] int id, [FromQuery] int page = 1)
+    public async Task<PaginatedResponseModel<Character>> GetCharactersByHouse([FromRoute] int id, [FromQuery] int page = 1)
     {
         const int take = 25;
         var skip = take * (page - 1);
-        var total = await _houseService.GetCharactersCount(id);
+        var total = await _houseService.GetCharactersCountAsync(id);
         var pages = total / take;
         if (total % take > 0)
         {
             pages += 1;
         }
-        var items = await _houseService.GetCharacters(id, skip, take);
-
-        return Ok(new
-        {
-            totalPages = pages,
-            currentPage = page,
-            items = items.Count,
-            data = items
-        });
+        var items = await _houseService.GetCharactersAsync(id, skip, take);
+        return new PaginatedResponseModel<Character>(pages, page, items);
     }
 
     [HttpGet("authenticated")]

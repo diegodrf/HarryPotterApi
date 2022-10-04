@@ -4,9 +4,9 @@ namespace HarryPotterApi.Services;
 
 public interface IHouseService
 {
-    Task<List<House>> GetAll();
-    Task<House> GetById(int id);
+    Task<List<House>> GetAllAsync();
+    Task<House> GetByIdAsync(int id);
     
-    Task<List<Character>> GetCharacters(int houseId, int skip, int take);
-    Task<int> GetCharactersCount(int houseId);
+    Task<List<Character>> GetCharactersAsync(int houseId, int skip, int take);
+    Task<int> GetCharactersCountAsync(int houseId);
 }

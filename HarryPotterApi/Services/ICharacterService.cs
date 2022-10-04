@@ -4,7 +4,7 @@ namespace HarryPotterApi.Services
 {
     public interface ICharacterService
     {
-        Task<List<Character>> GetAll(int skip, int take);
-        Task<int> GetAllCount();
+        Task<List<Character>> GetAllAsync(int skip, int take);
+        Task<int> GetAllCountAsync();
     }
 }

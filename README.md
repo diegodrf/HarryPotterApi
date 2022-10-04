@@ -1,7 +1,7 @@
 # Harry Potter API
 
 [![CI](https://github.com/diegodrf/HarryPotterApi/actions/workflows/ci.yml/badge.svg)](https://github.com/diegodrf/HarryPotterApi/actions/workflows/ci.yml)
-[![](https://heroku-status-badges.herokuapp.com/harry-potter--api)](https://heroku-status-badges.herokuapp.com/harry-potter--api)
+[![](https://heroku-status-badges.herokuapp.com/harry-potter--api)](https://harry-potter--api.herokuapp.com/)
 
 
 

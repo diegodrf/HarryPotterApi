@@ -1,9 +1,6 @@
-using System.Text;
 using HarryPotterApi.Data.Connections;
 using HarryPotterApi.Services;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 
 var config = new ConfigurationBuilder()
     .AddEnvironmentVariables()
@@ -11,7 +8,6 @@ var config = new ConfigurationBuilder()
     .Build();
 
 var connectionString = config.GetValue<string>("HarryPotterDbConnectionString");
-var jwtSecret = config.GetValue<string>("JwtSecret");
 var imagesBaseUrl = config.GetValue<string>("ImagesBaseUrl");
 
 var builder = WebApplication.CreateBuilder();
@@ -26,9 +22,7 @@ builder.Services.AddDbContext<HarryPotterApiDbContext>(options => options.UseNpg
 // Add services to the container.
 builder.Services.AddScoped<ICharacterService, CharacterService>();
 builder.Services.AddScoped<IHouseService, HouseService>();
-builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<DataSeedingService>();
-builder.Services.AddSingleton<IJwtService>(new JwtService(jwtSecret));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -38,26 +32,6 @@ builder.Services.AddSwaggerGen(configurations =>
         configurations.EnableAnnotations();
     }
     );
-
-var key = Encoding.ASCII.GetBytes(jwtSecret);
-builder.Services.AddAuthentication(i =>
-    {
-        i.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-        i.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-    })
-    .AddJwtBearer(i =>
-    {
-        
-        i.RequireHttpsMetadata = false;
-        i.SaveToken = true;
-        i.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(key),
-            ValidateIssuer = false,
-            ValidateAudience = false
-        };
-    });
 
 var app = builder.Build();
 

@@ -18,12 +18,6 @@ public class HouseService : IHouseService
 
     }
 
-    public Task<House> GetByIdAsync(int id)
-    {
-        // TODO implement get house by id
-        throw new NotImplementedException();
-    }
-
     public async Task<List<Character>> GetCharactersAsync(int houseId, int skip, int take)
     {
         return await _context.Characters

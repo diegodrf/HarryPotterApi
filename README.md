@@ -1,6 +1,7 @@
 # Harry Potter API
 
 [![CI](https://github.com/diegodrf/HarryPotterApi/actions/workflows/ci.yml/badge.svg)](https://github.com/diegodrf/HarryPotterApi/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/diegodrf/HarryPotterApi/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/diegodrf/HarryPotterApi/actions/workflows/codeql-analysis.yml)
 ![](https://heroku-status-badges.herokuapp.com/harry-potter--api)
 
 In this project I apply my knowledge on **C#** and **ASP.NET Core**.

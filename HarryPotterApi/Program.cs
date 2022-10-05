@@ -32,10 +32,10 @@ builder.Services.AddSwaggerGen(configurations =>
     {
         configurations.EnableAnnotations();
         configurations.SwaggerDoc(
-            "v0.1", 
+            "v1", 
             new OpenApiInfo { 
             Title = "Harry Potter API", 
-            Version = "v0.1", 
+            Version = "v1", 
             License = new OpenApiLicense { Name = "MIT License", Url = new Uri("https://github.com/diegodrf/HarryPotterApi/blob/main/LICENSE.md") },
             Contact = new OpenApiContact
             {

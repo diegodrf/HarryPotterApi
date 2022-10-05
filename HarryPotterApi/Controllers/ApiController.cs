@@ -73,11 +73,4 @@ public class ApiController : ControllerBase
         var items = await _houseService.GetCharactersAsync(id, skip, take);
         return new PaginatedResponseModel<Character>(pages, page, items);
     }
-
-    [HttpGet("authenticated")]
-    [Authorize]
-    public string Authenticated()
-    {
-        return $"Hello World! Authenticated! {User.Identity?.Name}"; 
-    } 
 }

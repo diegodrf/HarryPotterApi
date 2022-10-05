@@ -1,6 +1,7 @@
 using HarryPotterApi.Data.Connections;
 using HarryPotterApi.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 var config = new ConfigurationBuilder()
     .AddEnvironmentVariables()
@@ -30,6 +31,18 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(configurations =>
     {
         configurations.EnableAnnotations();
+        configurations.SwaggerDoc(
+            "v0.1", 
+            new OpenApiInfo { 
+            Title = "Harry Potter API", 
+            Version = "0.1", 
+            License = new OpenApiLicense { Name = "MIT License", Url = new Uri("https://github.com/diegodrf/HarryPotterApi/blob/main/LICENSE.md") },
+            Contact = new OpenApiContact
+            {
+                Name = "Diego Faria",
+                Url = new Uri("https://github.com/diegodrf")
+            }
+            });
     }
     );
 

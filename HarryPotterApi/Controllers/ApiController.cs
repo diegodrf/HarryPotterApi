@@ -53,12 +53,18 @@ public class ApiController : ControllerBase
         }
     }
 
+    [SwaggerOperation(Summary = "Get all houses", Tags = new[] { "Houses" })]
     [HttpGet("Houses")]
     public async Task<IEnumerable<House>> GetHouses()
     {
         return await _houseService.GetAllAsync();
     }
-        
+
+    [SwaggerOperation(
+        Summary = "Get all characters from house",
+        Description = "This endpoint uses a paginated query.",
+        Tags = new[] { "Houses", "Characters" })
+    ]
     [HttpGet("Houses/{id:int}/Characters")]
     public async Task<PaginatedResponseModel<Character>> GetCharactersByHouse([FromRoute] int id, [FromQuery] int page = 1)
     {

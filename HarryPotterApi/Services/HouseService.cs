@@ -14,7 +14,7 @@ public class HouseService : IHouseService
     }
     public async Task<List<House>> GetAllAsync()
     {
-        return await _context.Houses.ToListAsync();
+        return await _context.Houses.AsNoTracking().ToListAsync();
 
     }
 

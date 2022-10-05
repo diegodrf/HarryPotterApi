@@ -18,7 +18,7 @@ In this project I apply my knowledge on **C#** and **ASP.NET Core**.
 
 You can access the live server in this [link](https://harry-potter--api.herokuapp.com/)
 
-Feel free to use and explorer the project, but remember that it's an amateur project to show a portifolio and the infraestructure won't scale and can be offline without previus notice.
+Feel free to use and explorer the project, but remember that it's an amateur project to show a portfolio and the infraestructure won't scale and can be offline without previus notice.
 
 
 ### Special thanks

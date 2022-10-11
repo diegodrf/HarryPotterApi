@@ -9,5 +9,6 @@ namespace HarryPotterApi.Application.Handlers
     public interface IHouseHandler
     {
         Task<ICommandResult> AllHousesHandle(HouseCommand command);
+        Task<ICommandResult> CharactersByHouseHandle(HouseCommand command);
     }
 }

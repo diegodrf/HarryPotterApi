@@ -1,11 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
-namespace HarryPotterApi.Models.Data
+namespace HarryPotterApi.Domain.Entities
 {
-    public class Character
+    public class Character : Entity
     {
-        public int Id { get; set; }
         public string Name { get; set; } = default!;
 
         public Species? Species { get; set; }

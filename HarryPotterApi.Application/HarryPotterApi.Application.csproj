@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>f4b92707-c01e-4a63-95bf-273acdb2e713</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.9" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HarryPotterApi.Domain\HarryPotterApi.Domain.csproj" />
+    <ProjectReference Include="..\HarryPotterApi.Infrastructure\HarryPotterApi.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

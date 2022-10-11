@@ -5,6 +5,14 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HarryPotterApi", "HarryPotterApi\HarryPotterApi.csproj", "{08231FC0-61AF-4EEC-A499-9027583300C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarryPotterApi.Domain", "HarryPotterApi.Domain\HarryPotterApi.Domain.csproj", "{663FE088-1334-4826-A243-606ED18783AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarryPotterApi.Tests", "HarryPotterApi.Tests\HarryPotterApi.Tests.csproj", "{6B5E720F-8746-43C5-BB4D-8763FC889200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarryPotterApi.Infrastructure", "HarryPotterApi.Infrastructure\HarryPotterApi.Infrastructure.csproj", "{DDDDD278-5720-4F0F-AF29-75871A276FD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarryPotterApi.Application", "HarryPotterApi.Application\HarryPotterApi.Application.csproj", "{9EB7AF6A-0F95-43CD-9701-01906005B4BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{08231FC0-61AF-4EEC-A499-9027583300C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08231FC0-61AF-4EEC-A499-9027583300C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08231FC0-61AF-4EEC-A499-9027583300C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663FE088-1334-4826-A243-606ED18783AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663FE088-1334-4826-A243-606ED18783AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663FE088-1334-4826-A243-606ED18783AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663FE088-1334-4826-A243-606ED18783AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B5E720F-8746-43C5-BB4D-8763FC889200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B5E720F-8746-43C5-BB4D-8763FC889200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B5E720F-8746-43C5-BB4D-8763FC889200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B5E720F-8746-43C5-BB4D-8763FC889200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDDDD278-5720-4F0F-AF29-75871A276FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDDD278-5720-4F0F-AF29-75871A276FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDDD278-5720-4F0F-AF29-75871A276FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDDD278-5720-4F0F-AF29-75871A276FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB7AF6A-0F95-43CD-9701-01906005B4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB7AF6A-0F95-43CD-9701-01906005B4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB7AF6A-0F95-43CD-9701-01906005B4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB7AF6A-0F95-43CD-9701-01906005B4BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

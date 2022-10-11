@@ -16,14 +16,14 @@ namespace HarryPotterApi.Models.Json
         public string? Name { get; set; }
 
         [JsonPropertyName("alternate_names")]
-        public List<string?> AlternateNames { get; set; }
+        public List<string?> AlternateNames { get; set; } = default!;
 
         [JsonPropertyName("species")]
         public string? Species { get; set; }
-        
+
         [JsonPropertyName("gender")]
         public string? Gender { get; set; }
-        
+
         [JsonPropertyName("house")]
         public string? House { get; set; }
 
@@ -59,7 +59,7 @@ namespace HarryPotterApi.Models.Json
         public string? Actor { get; set; }
 
         [JsonPropertyName("alternate_actors")]
-        public List<string?> AlternateActors { get; set; }
+        public List<string?> AlternateActors { get; set; } = default!;
 
         [JsonPropertyName("alive")]
         public bool? IsAlive { get; set; }

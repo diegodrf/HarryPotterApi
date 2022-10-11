@@ -1,0 +1,15 @@
+{
+    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "db.popqlexgcfcylelmndbx.supabase.co",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Harry Potter Api Supabase",
+            "password": "T4Oh4gz3NRhUaiBp",
+            "username": "postgres",
+            "database": "postgres"
+        }
+    ]
+}

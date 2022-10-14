@@ -24,34 +24,6 @@ public class ApiController : ControllerBase
         _characterService = characterService;
         _houseService = houseService;
     }
-    [SwaggerOperation(
-        Summary = "Get all characters",
-        Description = "This endpoint uses a paginated query.",
-        Tags = new[] {"Characters"})
-    ]
-    [HttpGet("Characters")]
-    public async Task<PaginatedResponseModel<Character>> GetCharacters([FromQuery] int page = 1)
-    {
-        try
-        {
-            const int take = 25;
-            var skip = take * (page - 1);
-            var total = await _characterService.GetAllCountAsync();
-            var pages = total / take;
-            if (total % take > 0)
-            {
-                pages += 1;
-            }
-            var items = await _characterService.GetAllAsync(skip, take);
-            var response = new PaginatedResponseModel<Character>(pages, page, items);
-            return response;
-        }
-        catch (Exception e)
-        {
-            _logger.LogCritical(e.Message);
-            throw;
-        }
-    }
 
     [SwaggerOperation(Summary = "Get all houses", Tags = new[] { "Houses" })]
     [HttpGet("Houses")]

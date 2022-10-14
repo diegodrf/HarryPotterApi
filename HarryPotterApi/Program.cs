@@ -23,6 +23,7 @@ builder.Services.AddDbContext<HarryPotterApiDbContext>(options => options.UseNpg
 // Add services to the container.
 builder.Services.AddScoped<ICharacterService, CharacterService>();
 builder.Services.AddScoped<IHouseService, HouseService>();
+builder.Services.AddTransient<IPaginatorService, PaginatorService>();
 builder.Services.AddScoped<DataSeedingService>();
 
 builder.Services.AddControllers();

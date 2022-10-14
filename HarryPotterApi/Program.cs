@@ -1,5 +1,6 @@
 using HarryPotterApi.Data.Connections;
 using HarryPotterApi.Services;
+using HarryPotterApi.Services.Contracts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 

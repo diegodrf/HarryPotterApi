@@ -1,6 +1,6 @@
 ﻿using HarryPotterApi.Models;
 using HarryPotterApi.Models.Data;
-using HarryPotterApi.Services;
+using HarryPotterApi.Services.Contracts;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;

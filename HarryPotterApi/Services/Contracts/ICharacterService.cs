@@ -1,6 +1,6 @@
 ﻿using HarryPotterApi.Models.Data;
 
-namespace HarryPotterApi.Services
+namespace HarryPotterApi.Services.Contracts
 {
     public interface ICharacterService
     {

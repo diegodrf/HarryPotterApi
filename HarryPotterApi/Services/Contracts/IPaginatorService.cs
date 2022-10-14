@@ -1,6 +1,6 @@
 ﻿using HarryPotterApi.ValueObjects;
 
-namespace HarryPotterApi.Services
+namespace HarryPotterApi.Services.Contracts
 {
     public interface IPaginatorService
     {

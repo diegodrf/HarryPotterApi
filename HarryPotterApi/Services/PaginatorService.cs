@@ -1,4 +1,5 @@
 ﻿using HarryPotterApi.Constants;
+using HarryPotterApi.Services.Contracts;
 using HarryPotterApi.ValueObjects;
 
 namespace HarryPotterApi.Services

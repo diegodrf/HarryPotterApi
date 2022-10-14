@@ -1,8 +1,8 @@
 ﻿using HarryPotterApi.Models.Data;
 using HarryPotterApi.Models;
 using Microsoft.AspNetCore.Mvc;
-using HarryPotterApi.Services;
 using Swashbuckle.AspNetCore.Annotations;
+using HarryPotterApi.Services.Contracts;
 
 namespace HarryPotterApi.Controllers
 {

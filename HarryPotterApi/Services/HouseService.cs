@@ -11,12 +11,21 @@ public class HouseService : IHouseService
     private readonly HarryPotterApiDbContext _context;
     public HouseService(HarryPotterApiDbContext context)
     {
-        _context = context;
+        _context = context ?? throw new ArgumentNullException(nameof(context));
     }
-    public async Task<List<House>> GetAllAsync()
+    public async Task<IEnumerable<House>> GetAllAsync(int skip, int take)
     {
-        return await _context.Houses.AsNoTracking().ToListAsync();
+        return await _context.Houses
+            .AsNoTracking()
+            .OrderBy(_ => _.Id)
+            .Skip(skip)
+            .Take(take)
+            .ToArrayAsync();
+    }
 
+    public async Task<int> GetAllCountAsync()
+    {
+        return await _context.Houses.AsNoTracking().CountAsync();
     }
 
     public async Task<List<Character>> GetCharactersAsync(int houseId, int skip, int take)

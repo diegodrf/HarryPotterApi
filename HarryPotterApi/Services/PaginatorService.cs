@@ -10,6 +10,9 @@ namespace HarryPotterApi.Services
 
         public PaginatorService(IConfiguration configuration)
         {
+            if(configuration is null)
+                throw new ArgumentNullException(nameof(configuration));
+            
             ItemsPerPage = configuration
                 .GetRequiredSection(ConfigurationConstants.Pagination)
                 .GetValue<int>(ConfigurationConstants.ItemsPerPage);

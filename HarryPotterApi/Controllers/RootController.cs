@@ -11,7 +11,7 @@ public class RootController: ControllerBase
 
     public RootController(ILogger<RootController> logger)
     {
-        _logger = logger;
+        _logger = logger ?? throw new ArgumentNullException(nameof(logger));
     }
     
     [HttpGet]

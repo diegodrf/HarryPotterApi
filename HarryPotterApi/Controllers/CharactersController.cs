@@ -17,8 +17,8 @@ namespace HarryPotterApi.Controllers
             ICharacterService characterService
             )
         {
-            _paginatorService = paginatorService;
-            _characterService = characterService;
+            _paginatorService = paginatorService ?? throw new ArgumentNullException(nameof(paginatorService));
+            _characterService = characterService ?? throw new ArgumentNullException(nameof(characterService));
         }
 
         [SwaggerOperation(

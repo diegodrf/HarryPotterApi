@@ -10,7 +10,7 @@ namespace HarryPotterApi.Services
         private readonly HarryPotterApiDbContext _context;
         public CharacterService(HarryPotterApiDbContext context)
         {
-            _context = context;
+            _context = context ?? throw new ArgumentNullException(nameof(context));
         }
         public async Task<List<Character>> GetAllAsync(int skip, int take)
         {

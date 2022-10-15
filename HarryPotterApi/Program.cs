@@ -1,3 +1,4 @@
+using HarryPotterApi.Constants;
 using HarryPotterApi.Data.Connections;
 using HarryPotterApi.Services;
 using HarryPotterApi.Services.Contracts;
@@ -9,8 +10,8 @@ var config = new ConfigurationBuilder()
     .AddUserSecrets<Program>()
     .Build();
 
-var connectionString = config.GetValue<string>("HarryPotterDbConnectionString");
-var imagesBaseUrl = config.GetValue<string>("ImagesBaseUrl");
+var connectionString = config.GetValue<string>(ConfigurationConstants.HarryPotterDbConnectionString);
+var imagesBaseUrl = config.GetValue<string>(ConfigurationConstants.ImagesBaseUrl);
 
 var builder = WebApplication.CreateBuilder();
 

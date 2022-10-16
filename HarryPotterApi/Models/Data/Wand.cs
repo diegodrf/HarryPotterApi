@@ -9,6 +9,6 @@ namespace HarryPotterApi.Models.Data
         public string? Core { get; set; }
         public double? Length { get; set; }
         [JsonIgnore]
-        public List<Character> Characters { get; set; }
+        public List<Character> Characters { get; set; } = default!;
     }
 }

@@ -6,7 +6,7 @@ namespace HarryPotterApi.Models.Data
     public class Character
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string Name { get; set; } = default!;
 
         public Species? Species { get; set; }
         [JsonIgnore]
@@ -42,7 +42,7 @@ namespace HarryPotterApi.Models.Data
 
         public bool IsHogwartsStaff { get; set; }
 
-        public string Actor { get; set; }
+        public string Actor { get; set; } = default!;
 
         public bool IsAlive { get; set; }
 

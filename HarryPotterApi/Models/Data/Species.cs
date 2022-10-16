@@ -10,9 +10,9 @@ namespace HarryPotterApi.Models.Data
     public class Species
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string Name { get; set; } = default!;
         [JsonIgnore]
-        public List<Character> Characters { get; set; }
+        public List<Character> Characters { get; set; } = default!;
 
         public override int GetHashCode()
         {

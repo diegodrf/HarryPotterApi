@@ -15,6 +15,7 @@ var config = new ConfigurationBuilder()
 
 var connectionString = config.GetValue<string>(ConfigurationConstants.HarryPotterDbConnectionString);
 var imagesBaseUrl = config.GetValue<string>(ConfigurationConstants.ImagesBaseUrl);
+var charactersDataSource = config.GetValue<string>(ConfigurationConstants.CharactersDataSource);
 var paginationItemsPerPage = config
     .GetRequiredSection(ConfigurationConstants.Pagination)
     .GetValue<int>(ConfigurationConstants.ItemsPerPage);
@@ -43,11 +44,14 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     // Populate Database
-    await app.Services
-        .CreateScope()
-        .ServiceProvider
-        .GetRequiredService<DataSeedingService>()
-        .Run(imagesBaseUrl);
+    using var scope = app.Services.CreateScope();
+    var provider = scope.ServiceProvider;
+    using var seed = new DataSeedingService(
+        provider.GetRequiredService<HarryPotterApiDbContext>(),
+        new Uri(imagesBaseUrl),
+        new Uri(charactersDataSource)
+        );
+    await seed.Run();
 }
 
 app.UseSwagger();

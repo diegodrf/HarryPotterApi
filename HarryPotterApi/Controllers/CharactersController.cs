@@ -3,18 +3,19 @@ using HarryPotterApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 using HarryPotterApi.Services.Contracts;
+using HarryPotterApi.Repositories.contracts;
 
 namespace HarryPotterApi.Controllers
 {
-    [Route("api/characters")]
+    [Route("api/[controller]")]
     [ApiController]
     public class CharactersController : ControllerBase
     {
         private readonly IPaginatorService _paginatorService;
-        private readonly ICharacterService _characterService;
+        private readonly ICharactersRepository _characterService;
         public CharactersController(
             IPaginatorService paginatorService,
-            ICharacterService characterService
+            ICharactersRepository characterService
             )
         {
             _paginatorService = paginatorService ?? throw new ArgumentNullException(nameof(paginatorService));

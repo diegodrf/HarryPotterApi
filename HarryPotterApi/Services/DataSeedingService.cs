@@ -1,8 +1,8 @@
-﻿using System.Text.Json;
-using HarryPotterApi.Data.Connections;
+﻿using HarryPotterApi.Data.Connections;
 using HarryPotterApi.Models.Data;
 using HarryPotterApi.Models.Json;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
 
 namespace HarryPotterApi.Services;
 
@@ -16,18 +16,19 @@ public class DataSeedingService
 
     public DataSeedingService(HarryPotterApiDbContext context)
     {
-        _context = context;
+        _context = context ?? throw new ArgumentNullException(nameof(context));
+
         _species = new HashSet<Species>();
         _genders = new HashSet<Gender>();
         _houses = new HashSet<House>();
         _characters = new HashSet<Character>();
     }
-    
+
     public async Task Run(string imagesBaseUrl)
     {
         var isEmpty = await IsEmpty();
         if (!isEmpty) return;
-        
+
         // TODO Implements external data source
         var path = @"C:\Users\Diego\source\repos\HarryPotterApi\HarryPotterApi\Data\characters.json";
 
@@ -42,10 +43,10 @@ public class DataSeedingService
 
         _houses.UnionWith(GetHouses(charactersFromJson!));
         await _context.Houses.AddRangeAsync(_houses);
-        
+
         _characters.UnionWith(GetCharacters(charactersFromJson!, imagesBaseUrl));
         await _context.Characters.AddRangeAsync(_characters);
-        
+
         await _context.SaveChangesAsync();
     }
 
@@ -89,8 +90,8 @@ public class DataSeedingService
                 ? null
                 : new Wand
                 {
-                    Wood = json.Wand!.Wood, 
-                    Core = json.Wand!.Core, 
+                    Wood = json.Wand!.Wood,
+                    Core = json.Wand!.Core,
                     Length = json.Wand!.Length
                 },
             Patronus = json.Patronus ?? null,
@@ -98,8 +99,8 @@ public class DataSeedingService
             IsHogwartsStaff = json.IsHogwartsStaff ?? false,
             Actor = json.Actor ?? "Unknown",
             IsAlive = json.IsAlive ?? false,
-            ImageUrl = json.ImageUrl is null 
-                ? null 
+            ImageUrl = json.ImageUrl is null
+                ? null
                 : imagesBaseUrl + json.GetFilenameFromImageUrl()!
         }).ToList();
     }

@@ -1,6 +1,5 @@
-﻿using HarryPotterApi.Constants;
+﻿using HarryPotterApi.Models;
 using HarryPotterApi.Services.Contracts;
-using HarryPotterApi.ValueObjects;
 
 namespace HarryPotterApi.Services
 {
@@ -8,14 +7,9 @@ namespace HarryPotterApi.Services
     {
         public int ItemsPerPage { get; private set; }
 
-        public PaginatorService(IConfiguration configuration)
+        public PaginatorService(int itemsPerPage)
         {
-            if(configuration is null)
-                throw new ArgumentNullException(nameof(configuration));
-            
-            ItemsPerPage = configuration
-                .GetRequiredSection(ConfigurationConstants.Pagination)
-                .GetValue<int>(ConfigurationConstants.ItemsPerPage);
+            ItemsPerPage = itemsPerPage;
         }
 
         public Paginator Paginate(int page, int totalNumberOfItemsInDataSource)
@@ -29,7 +23,7 @@ namespace HarryPotterApi.Services
         public int TotalPages(int itemsPerPage, int totalNumberOfItemsInDataSource)
         {
             var totalPages = totalNumberOfItemsInDataSource / itemsPerPage;
-            if(totalNumberOfItemsInDataSource % itemsPerPage > 0)
+            if (totalNumberOfItemsInDataSource % itemsPerPage > 0)
             {
                 totalPages++;
             }

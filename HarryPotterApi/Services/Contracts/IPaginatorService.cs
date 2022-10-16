@@ -1,4 +1,4 @@
-﻿using HarryPotterApi.ValueObjects;
+﻿using HarryPotterApi.Models;
 
 namespace HarryPotterApi.Services.Contracts
 {

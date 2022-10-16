@@ -1,4 +1,5 @@
-﻿using HarryPotterApi.Data.Connections;
+﻿using HarryPotterApi.Constants;
+using HarryPotterApi.Data.Connections;
 using HarryPotterApi.Repositories;
 using HarryPotterApi.Services;
 using Microsoft.EntityFrameworkCore;
@@ -16,7 +17,7 @@ namespace HarryPotterApi.Tests.Repositories
         public HousesRepositoryTests()
         {
             _imagesBaseUrl = new Uri("https://raw.githubusercontent.com/diegodrf/HarryPotterApi/main/Assets/Images/");
-            _charactersDataSource = new Uri("https://github.com/diegodrf/HarryPotterApi/main/Assets/characters.json");
+            _charactersDataSource = new Uri("https://raw.githubusercontent.com/diegodrf/HarryPotterApi/main/Assets/characters.json");
 
             var options = new DbContextOptionsBuilder<HarryPotterApiDbContext>()
                 .UseInMemoryDatabase(Guid.NewGuid().ToString())

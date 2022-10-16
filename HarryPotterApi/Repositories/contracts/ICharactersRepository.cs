@@ -1,8 +1,8 @@
 ﻿using HarryPotterApi.Models.Data;
 
-namespace HarryPotterApi.Services
+namespace HarryPotterApi.Repositories.contracts
 {
-    public interface ICharacterService
+    public interface ICharactersRepository
     {
         Task<List<Character>> GetAllAsync(int skip, int take);
         Task<int> GetAllCountAsync();

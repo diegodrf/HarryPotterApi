@@ -1,12 +1,11 @@
-﻿using System.Text.Json;
-using HarryPotterApi.Data.Connections;
+﻿using HarryPotterApi.Data.Connections;
 using HarryPotterApi.Models.Data;
 using HarryPotterApi.Models.Json;
 using Microsoft.EntityFrameworkCore;
 
 namespace HarryPotterApi.Services;
 
-public class DataSeedingService
+public class DataSeedingService : IDisposable
 {
     private readonly HarryPotterApiDbContext _context;
     private readonly HashSet<Species> _species;
@@ -14,38 +13,47 @@ public class DataSeedingService
     private readonly HashSet<House> _houses;
     private readonly HashSet<Character> _characters;
 
-    public DataSeedingService(HarryPotterApiDbContext context)
+    private readonly Uri _imagesBaseUrl;
+    private readonly Uri _dataSourceUrl;
+    private readonly IList<CharacterFromJson> _charactersFromJson;
+
+    public DataSeedingService(
+        HarryPotterApiDbContext context,
+        Uri imageBaseUrl,
+        Uri dataSourceUrl
+        )
     {
-        _context = context;
+        _context = context ?? throw new ArgumentNullException(nameof(context));
+
         _species = new HashSet<Species>();
         _genders = new HashSet<Gender>();
         _houses = new HashSet<House>();
         _characters = new HashSet<Character>();
+
+        _imagesBaseUrl = imageBaseUrl ?? throw new ArgumentNullException(nameof(imageBaseUrl));
+        _dataSourceUrl = dataSourceUrl ?? throw new ArgumentNullException(nameof(dataSourceUrl));
+        _charactersFromJson = new List<CharacterFromJson>();
     }
-    
-    public async Task Run(string imagesBaseUrl)
+
+    public async Task Run()
     {
         var isEmpty = await IsEmpty();
         if (!isEmpty) return;
-        
-        // TODO Implements external data source
-        var path = @"C:\Users\Diego\source\repos\HarryPotterApi\HarryPotterApi\Data\characters.json";
 
-        await using var file = File.OpenRead(path);
-        var charactersFromJson = await JsonSerializer.DeserializeAsync<List<CharacterFromJson>>(file);
+        await LoadDataSource();
 
-        _species.UnionWith(GetSpecies(charactersFromJson!));
+        _species.UnionWith(GetSpecies(_charactersFromJson));
         await _context.Species.AddRangeAsync(_species);
 
-        _genders.UnionWith(GetGenders(charactersFromJson!));
+        _genders.UnionWith(GetGenders(_charactersFromJson));
         await _context.Genders.AddRangeAsync(_genders);
 
-        _houses.UnionWith(GetHouses(charactersFromJson!));
+        _houses.UnionWith(GetHouses(_charactersFromJson));
         await _context.Houses.AddRangeAsync(_houses);
-        
-        _characters.UnionWith(GetCharacters(charactersFromJson!, imagesBaseUrl));
+
+        _characters.UnionWith(GetCharacters(_charactersFromJson, _imagesBaseUrl.ToString()));
         await _context.Characters.AddRangeAsync(_characters);
-        
+
         await _context.SaveChangesAsync();
     }
 
@@ -89,8 +97,8 @@ public class DataSeedingService
                 ? null
                 : new Wand
                 {
-                    Wood = json.Wand!.Wood, 
-                    Core = json.Wand!.Core, 
+                    Wood = json.Wand!.Wood,
+                    Core = json.Wand!.Core,
                     Length = json.Wand!.Length
                 },
             Patronus = json.Patronus ?? null,
@@ -98,8 +106,8 @@ public class DataSeedingService
             IsHogwartsStaff = json.IsHogwartsStaff ?? false,
             Actor = json.Actor ?? "Unknown",
             IsAlive = json.IsAlive ?? false,
-            ImageUrl = json.ImageUrl is null 
-                ? null 
+            ImageUrl = json.ImageUrl is null
+                ? null
                 : imagesBaseUrl + json.GetFilenameFromImageUrl()!
         }).ToList();
     }
@@ -108,5 +116,20 @@ public class DataSeedingService
     {
         var hasCharacters = await _context.Characters.AnyAsync();
         return !hasCharacters;
+    }
+
+    private async Task LoadDataSource()
+    {
+        using var cliente = new HttpClient();
+        var response = await cliente.GetFromJsonAsync<List<CharacterFromJson>>(_dataSourceUrl);
+        foreach (var _ in response!)
+        {
+            _charactersFromJson.Add(_);
+        }
+    }
+
+    public void Dispose()
+    {
+        
     }
 }

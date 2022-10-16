@@ -16,7 +16,7 @@ namespace HarryPotterApi.Models.Json
         public string? Name { get; set; }
 
         [JsonPropertyName("alternate_names")]
-        public List<string?> AlternateNames { get; set; }
+        public List<string?> AlternateNames { get; set; } = default!;
 
         [JsonPropertyName("species")]
         public string? Species { get; set; }
@@ -59,7 +59,7 @@ namespace HarryPotterApi.Models.Json
         public string? Actor { get; set; }
 
         [JsonPropertyName("alternate_actors")]
-        public List<string?> AlternateActors { get; set; }
+        public List<string?> AlternateActors { get; set; } = default!;
 
         [JsonPropertyName("alive")]
         public bool? IsAlive { get; set; }

@@ -1,15 +1,16 @@
 ﻿using HarryPotterApi.Data.Connections;
 using HarryPotterApi.Models.Data;
+using HarryPotterApi.Repositories.contracts;
 using Microsoft.EntityFrameworkCore;
 
-namespace HarryPotterApi.Services
+namespace HarryPotterApi.Repositories
 {
-    public class CharacterService : ICharacterService
+    public class CharactersRepository : ICharactersRepository
     {
         private readonly HarryPotterApiDbContext _context;
-        public CharacterService(HarryPotterApiDbContext context)
+        public CharactersRepository(HarryPotterApiDbContext context)
         {
-            _context = context;
+            _context = context ?? throw new ArgumentNullException(nameof(context));
         }
         public async Task<List<Character>> GetAllAsync(int skip, int take)
         {
